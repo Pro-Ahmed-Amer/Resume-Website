@@ -1,0 +1,115 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 100px auto 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header .name {
+    width: 65%;
+    background-color: white;
+    padding-top: 5px;
+}
+
+header .image {
+    width: 35%;
+}
+
+header .image img {
+    max-width: 265px;
+}
+
+header h1 {
+    font-size: 100px;
+    letter-spacing: -2px;
+}
+
+header h2 {
+    font-weight: 100;
+    font-size: 35px;
+    margin-bottom: -10px;
+    margin-left: 2px;
+}
+
+section {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section article {
+    border-right: 1px solid;
+    padding-right: 15px;
+    width: 65%;
+    background-color: white;
+    padding-left: 10px;
+    margin-left: -10px;
+}
+
+section article img {
+    max-width: 100px;
+}
+
+section aside {
+    width: 35%;
+    padding-left: 15px;
+    margin-top: -10px;
+}
+
+section aside div {
+    font-size: 14px;
+    padding: 1px 0;
+}
+
+section aside a {
+    text-decoration: none;
+}
+
+section aside a:hover {
+    text-decoration: underline;
+}
+
+section article h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+section aside h3 {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+
+/*
+.rect {
+    border: 15px solid;
+    width: 950px;
+    height: 1100px;
+    position: absolute;
+    z-index: -1;
+    transform: rotate(5deg);
+    top: 35px;
+    margin-left: -30px;
+}
+*/
